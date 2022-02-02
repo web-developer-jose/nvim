@@ -19,6 +19,8 @@ set autoindent
 "Plugins
 call plug#begin('C:\Users\sosaj\AppData\Local\nvim\plugged')
 Plug 'doums/darcula'
+Plug 'arcticicestudio/nord-vim'
+Plug 'cocopon/iceberg.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -38,12 +40,12 @@ let g:NERDTreeDirArrowExpandable = ' '
 let g:NERDTreeDirArrowCollapsible = ' '
 let NERDTreeMinimalUI=1
 let NERDTreeQuitOnOpen=1
-let g:airline_theme='darcula'
+let g:airline_theme='iceberg'
 let g:airline_powerline_fonts = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 
 "Themes
-colorscheme darcula
+colorscheme iceberg
 
 "Maps
 let mapleader=" "
