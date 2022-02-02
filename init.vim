@@ -18,7 +18,7 @@ set autoindent
 
 "Plugins
 call plug#begin('C:\Users\sosaj\AppData\Local\nvim\plugged')
-Plug 'ericbn/vim-solarized'
+Plug 'doums/darcula'
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -38,12 +38,12 @@ let g:NERDTreeDirArrowExpandable = ' '
 let g:NERDTreeDirArrowCollapsible = ' '
 let NERDTreeMinimalUI=1
 let NERDTreeQuitOnOpen=1
-let g:airline_theme='solarized'
+let g:airline_theme='darcula'
 let g:airline_powerline_fonts = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 
 "Themes
-colorscheme solarized
+colorscheme darcula
 
 "Maps
 let mapleader=" "
