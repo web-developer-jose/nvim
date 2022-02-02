@@ -40,6 +40,7 @@ let g:NERDTreeDirArrowExpandable = ' '
 let g:NERDTreeDirArrowCollapsible = ' '
 let NERDTreeMinimalUI=1
 let NERDTreeQuitOnOpen=1
+let NERDTreeShowHidden=1
 let g:airline_theme='nord'
 let g:airline_powerline_fonts = 1
 let g:DevIconsEnableFoldersOpenClose = 1
