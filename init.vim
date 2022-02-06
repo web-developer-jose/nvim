@@ -21,6 +21,7 @@ call plug#begin('C:\Users\sosaj\AppData\Local\nvim\plugged')
 Plug 'doums/darcula'
 Plug 'arcticicestudio/nord-vim'
 Plug 'cocopon/iceberg.vim'
+Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -41,12 +42,12 @@ let g:NERDTreeDirArrowCollapsible = ' '
 let NERDTreeMinimalUI=1
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
-let g:airline_theme='nord'
+let g:airline_theme='gruvbox'
 let g:airline_powerline_fonts = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 
 "Themes
-colorscheme nord
+colorscheme gruvbox
 
 "Maps
 let mapleader=" "
