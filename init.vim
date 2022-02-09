@@ -23,6 +23,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'cocopon/iceberg.vim'
 Plug 'morhetz/gruvbox'
 Plug 'micha/vim-colors-solarized'
+Plug 'overcache/NeoSolarized'
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -48,7 +49,7 @@ let g:airline_powerline_fonts = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 
 "Themes
-colorscheme solarized
+colorscheme  NeoSolarized
 
 "Maps
 let mapleader=" "
