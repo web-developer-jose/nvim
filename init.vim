@@ -22,6 +22,7 @@ Plug 'doums/darcula'
 Plug 'arcticicestudio/nord-vim'
 Plug 'cocopon/iceberg.vim'
 Plug 'morhetz/gruvbox'
+Plug 'micha/vim-colors-solarized'
 Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
@@ -42,12 +43,12 @@ let g:NERDTreeDirArrowCollapsible = ' '
 let NERDTreeMinimalUI=1
 let NERDTreeQuitOnOpen=1
 let NERDTreeShowHidden=1
-let g:airline_theme='gruvbox'
+let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 let g:DevIconsEnableFoldersOpenClose = 1
 
 "Themes
-colorscheme gruvbox
+colorscheme solarized
 
 "Maps
 let mapleader=" "
